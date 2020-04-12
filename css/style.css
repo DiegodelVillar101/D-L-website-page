@@ -2,7 +2,7 @@
 
 
 body {
-    background: #000000;
+    background: #fff;
     height: 100%;
     padding: 0;
     margin: 0;
@@ -157,7 +157,7 @@ ul li a:hover::before{
 /* INICIO */
 
 .inicio{
-    background: #1f2122;
+    /* background: #1f2122; */
     padding: 6px;
     margin: 20px 0;
     margin-left: 10%;
@@ -168,24 +168,26 @@ ul li a:hover::before{
 }
 
 
-h2{
-    color: whitesmoke;
+.h2{
+    color: rgb(0, 0, 0);
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 50px;
     margin-bottom: 25px;
     text-align: center;
 }
 
-h2:hover{
-    color: rgb(116, 115, 115);
+.h2:hover{
+    color: #52c5ff;
 }
 
 .inicio-init{
-    border: 1px solid #fafafa;
+    color: #000;
+    font-weight: 500;
+    border: 1px solid #ffffff;
     border-radius: 8px;
     margin: 25px;
-    background-image: linear-gradient(90deg,rgb(14, 16, 71), rgb(51, 141, 141));
+    /* background-image: linear-gradient(90deg,rgb(14, 16, 71), rgb(51, 141, 141)); */
     display: flex;
     padding: 20px;
     justify-content: space-between;
@@ -208,7 +210,7 @@ h2:hover{
     }
 
     .inicio-title:hover{
-        color: tomato;
+        color: rgb(12, 10, 107);
     }
     
     
@@ -239,7 +241,7 @@ h2:hover{
 /* QUIENES SOMOS */
 
     .quienes{
-        background: #1f2122;
+        background: #000000;
         padding: 6px;
         margin: 20px 0;
         /* border: 2px solid red; */
@@ -248,21 +250,26 @@ h2:hover{
     }
     
     
-    h2{
-        color: whitesmoke;
+    .h21{
+        color: rgb(255, 255, 255);
         text-transform: uppercase;
         font-weight: 700;
-        font-size: 30px;
+        font-size: 50px;
         margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .h21:hover{
+        color: #52c5ff;
     }
 
     
     
     .quienes-init{
-        border: 1px solid #fafafa;
+        border: 1px solid #000000;
         border-radius: 8px;
         margin: 25px;
-        background-image: linear-gradient(90deg,rgb(51, 141, 141) ,rgb(14, 16, 71) );
+        /* background-image: linear-gradient(90deg,rgb(51, 141, 141) ,rgb(14, 16, 71) ); */
         display: flex;
         padding: 20px;
         justify-content: space-between;
@@ -307,7 +314,7 @@ h2:hover{
 
 
     .hacemos{
-        background: #1f2122;
+        background: #ffffff;
         padding: 6px;
         margin: 20px 0;
         /* border: 2px solid red; */
@@ -316,21 +323,13 @@ h2:hover{
     }
     
     
-    h2{
-        color: whitesmoke;
-        text-transform: uppercase;
-        font-weight: 700;
-        font-size: 30px;
-        margin-bottom: 25px;
-    }
-
-    
-    
     .hacemos-init{
+        background: #fff;
+        color: #000;
         border: 1px solid #fafafa;
         border-radius: 8px;
         margin: 25px;
-        background-image: linear-gradient(90deg,rgb(14, 16, 71), rgb(51, 141, 141));
+        /* background-image: linear-gradient(90deg,rgb(14, 16, 71), rgb(51, 141, 141)); */
         display: flex;
         padding: 20px;
         justify-content: space-between;
@@ -360,6 +359,7 @@ h2:hover{
         
         .hacemos-description{
             font-size: 30px;
+            font-weight: 500;
         }
         
         .hacemos-img-container{
@@ -377,15 +377,6 @@ h2:hover{
 
         /* ANIMACION */
 
-        .h2{
-            position: relative;
-            margin: 0;
-            font-size: 50px;
-            font-weight: 900;
-            color: #fff;
-            z-index: 3;
-            overflow: hidden;
-        }
 
         /* .h2::before{
             content: '';
@@ -412,7 +403,7 @@ h2:hover{
         } */
 
         .animacion{
-            background: #1f2122;
+            background: #000000;
             padding: 6px;
             margin: 20px 0;
             /* border: 2px solid red; */
@@ -421,10 +412,10 @@ h2:hover{
         }
 
         .animacion-init{
-            border: 1px solid #fafafa;
+            /* border: 1px solid #fafafa; */
             border-radius: 8px;
             margin: 25px;
-            background-image: linear-gradient(90deg,rgb(51, 141, 141) ,rgb(14, 16, 71) );
+            /* background-image: linear-gradient(90deg,rgb(51, 141, 141) ,rgb(14, 16, 71) ); */
             display: flex;
             padding: 20px;
             justify-content: space-evenly;
@@ -439,6 +430,8 @@ h2:hover{
             }
 
          .animacion-description{
+             color: #fff;
+             font-weight: 500;
              font-size: 30px;
              /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
             
@@ -518,19 +511,20 @@ h2:hover{
 
 
         .mv-container{
-            margin: 15px 0;
+            margin: 0;
+            margin-top: -22px;
             display: flex;
             flex-wrap: wrap;
             justify-content: space-evenly;
             padding: 30px 0;
-            background-image: linear-gradient(90deg,rgb(15, 15, 15), rgb(87, 87, 88));
+            background-image: linear-gradient(90deg,rgb(0, 0, 0), rgb(255, 255, 255));
         }
 
         .mision{
             margin: 10px;
             border: 3px #006064 solid;
             width: 480px;
-            background-image: linear-gradient(90deg,#8d1a17,#181733);
+            background-image: linear-gradient(90deg,#eee9e8,#e9e9f1);
             border-radius: 15px;
             overflow: hidden;
             flex-shrink: 0;
@@ -563,7 +557,7 @@ h2:hover{
             margin: 10px;
             border: 3px #006064 solid;
             width: 480px;
-            background-image: linear-gradient(90deg,#8d1a17,#181733);
+            background-image: linear-gradient(90deg,#070707,#050505);
             border-radius: 15px;
             overflow: hidden;
             flex-shrink: 0;
@@ -737,7 +731,7 @@ h2:hover{
             justify-content: center;
             align-items: center;
             min-height: 30vh;
-            background: #031321;
+            background: #0c0c0c;
             font-family: consolas;
            
         }
